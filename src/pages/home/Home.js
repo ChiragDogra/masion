@@ -1,13 +1,11 @@
 import React from "react";
 import Banner from "../../components/banner/banner";
-import Header from "../../components/header/Header";
 import "./Home.css";
 import Card from "../../components/cards/card";
 
 export default function Home() {
   return (
     <div className="home">
-      <Header />
       <Banner />
 
       <div className="home__section">
@@ -47,6 +45,7 @@ export default function Home() {
           price="$70/night"
         />
       </div>
+
     </div>
   );
 }

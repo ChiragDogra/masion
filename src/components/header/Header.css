@@ -15,7 +15,9 @@
     width: 100%;
   }
   
- 
+ SearchIcon:hover{
+   cursor: pointer;
+ }
   
   .header__center {
     display: flex;
