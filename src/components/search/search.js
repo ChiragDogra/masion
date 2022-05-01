@@ -31,7 +31,7 @@ function Search() {
                 Number of guests <PeopleIcon />
             </h2>
             <input min={0} defaultValue={2} type="number" />
-            <Button onClick={() => history.push('/search')}>Search your masion</Button>
+            <Button onClick={() => history('/search')}>Search your masion</Button>
         </div>
     )
 }

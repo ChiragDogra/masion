@@ -22,7 +22,7 @@ function Banner() {
                 <h5>
                     This is the place where your search for dream home ends.
                 </h5>
-                <Button onClick={() => history.push('/search')} variant='outlined'>Explore Nearby</Button>
+                <Button onClick={() => history('/search')} variant='outlined'>Explore Nearby</Button>
             </div>
         </div>
     )
