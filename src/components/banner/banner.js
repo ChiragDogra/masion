@@ -20,7 +20,7 @@ function Banner() {
             <div className='banner__info'>
                 <h1>Search your dream home here</h1>
                 <h5>
-                    This is the place where your search for dream home ends.
+                    This is the place where your search for dream home ends
                 </h5>
                 <Button onClick={() => history('/search')} variant='outlined'>Explore Nearby</Button>
             </div>
